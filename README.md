@@ -26,7 +26,7 @@ Pipe output into a GUI editor
 
 Building is also stupid-simple. Just type
 
-    make launch
+    $ make launch
 
 Make's built-in rules will do the rest. If you want to customize the build,
 define your own `CFLAGS` and `LDFLAGS`. `launch` is written in simple,
@@ -35,6 +35,10 @@ please let me know.
 
 ### Packages ###
 
-Currently only available on Arch via the [AUR][1].
+Currently available on:
+
+* [AUR][1]
+* [FreeBSD][2]
 
 [1]: https://aur.archlinux.org/packages/launch-cmd/
+[2]: https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=218441
